@@ -2,10 +2,8 @@ import './main.css';
 
 export const ShopItemFunc = (props) => {
   const { item } = props;
-  // const item = props.item;
   
   return (
-    // <div>ShopItemFunc</div>
     <div className="main-content">
       <h2>{ item.brand }</h2>
       <h1>{ item.title }</h1>
